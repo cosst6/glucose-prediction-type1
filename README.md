@@ -131,3 +131,10 @@ matplotlib
 ---
 
 *This project is for research purposes. Not intended as a medical device or clinical decision support tool.*
+
+## Dataset Download
+
+You can download the dataset here:
+https://drive.google.com/drive/folders/1jGUor80fR_7Un_Xun2L1cQ1S9VU0js1B?usp=drive_link
+
+hmm, the data set is prepared by combining data from ShangahiT1DM,UCH,HUPA datasets compiled into excelsheets with almost the union of different fetures in columns.

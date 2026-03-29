@@ -138,3 +138,11 @@ You can download the dataset here:
 https://drive.google.com/drive/folders/1jGUor80fR_7Un_Xun2L1cQ1S9VU0js1B?usp=drive_link
 
 hmm, the data set is prepared by combining data from ShangahiT1DM,UCH,HUPA datasets compiled into excelsheets with almost the union of different fetures in columns.
+
+
+## link to my colab notebook
+https://colab.research.google.com/drive/1AXrkmDmouP8ep2N319KO1BW0ZlagNxY2?usp=sharing
+
+it contains models and i have tried diff  types of model towards the end and the notebook is large. 
+At the start there is only data cleaning etc code of python 
+The notebook also contains analysis of various models on right parameters shown with graphs .

@@ -1,0 +1,29 @@
+The glucose prediction project
+A student with Type 1 diabetes tries to predict his own glucose using machine learning
+
+The problem
+Why it started
+Chirag has Type 1 diabetes. Managing blood sugar requires predicting where glucose is going — not just where it is. He decided to build an ML model that could predict glucose 1–2 hours into the future, giving him and others like him a real early warning system.
+Phase 1–6
+Early experiments
+He started with a Transformer — the most powerful architecture. But Transformers need enormous amounts of data. The formula is simple: error grows with the square root of parameters divided by data. Too many parameters, too few patients. The model underfit badly.
+Transformer → too many params
+Phase 7
+Downgrading to LSTM, then GRU
+He stepped down to LSTM to reduce parameters, then further to GRU — a simpler but often equally powerful architecture for smaller datasets. This was the right call. GRU gave him a working model trained on realclinical data from three hospitals: HUPA (Spain), Shanghai, and UCH.
+Principled architecture decision
+Phase 8
+Adding real-world features
+The model grew from 2 features to 8 — adding Insulin On Board (IOB), Carbs On Board (COB), time since last meal, and binary masking across datasets. IOB uses an exponential decay curve to model how insulin still active in the body can drive glucose down. These are the features real clinicians care about.
+8 features including IOB + COB
+The finding
+What the model got wrong — and why
+Post-exercise, the model predicted 140 mg/dL when actual glucose was 200. Exercise causes glycogen release from muscles and the liver, producing a sharp spike the model had almost never seen in training. It also lacked glucose trend history as a direct encoder input, and the 2-hour model lacked journey context from the 1-hour window.
+Known limitation, not random failure
+The real constraint
+Why it can't fully generalize
+To build a truly generalizable glucose model — one that works across body types, activity levels, and meal patterns — you need data from 1,000–2,000 patients with 14 days each. The available datasets had only 51 patients. This isn't a failure of the model. It's a data ceiling that even research institutions struggle with.51 patients vs 1000+ needed
+Where it stands
+Not a failed project — an honest research finding
+The model works well in resting conditions. It degrades post-exercise due to a known physiological mechanism and insufficient training examples. The architectural decisions — why GRU over Transformer, why weighted loss, why IOB — are all defensible and correct. The next step is publishing this on GitHub with full documentation and submitting it as a research finding, not hiding it as a failure.
+Ready to publish

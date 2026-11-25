@@ -1,0 +1,24 @@
+{
+ "model_id": "GLU-B_glucometer-watch15-steps-cal-PLANNED2H-FIBER-EXERCISE-STICKx5_v11_2026-11-14",
+ "trained": "2026-11-14",
+ "base": "GLU-B v10",
+ "cgm_rows": 1751,
+ "fingerstick_pairs": 98,
+ "fingerstick_weight": 5,
+ "horizons_min": [
+  60,
+  120
+ ],
+ "planned_meal_window_min": 120,
+ "body_model_params": {
+  "mgdl_per_unit_insulin(-)": -23.054,
+  "mgdl_per_g_free_sugar": 2.203,
+  "mgdl_per_g_GL": 2.738,
+  "mgdl_per_g_slow_carb": 0.0,
+  "mgdl_per_FPU": 14.471,
+  "drift_per_h": 1.413,
+  "drift_tod_s": -3.761,
+  "drift_tod_c": 0.542,
+  "pull_to_110_per_h": -11.647
+ }
+}

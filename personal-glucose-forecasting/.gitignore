@@ -1,0 +1,16 @@
+# Personal data and secrets are never committed
+data/
+*.csv
+!**/food_db.csv
+!results/*.csv
+config.json
+google-services.json
+*.joblib
+*.pt
+*.pkl
+__pycache__/
+*.pyc
+.idea/
+.gradle/
+build/
+local.properties

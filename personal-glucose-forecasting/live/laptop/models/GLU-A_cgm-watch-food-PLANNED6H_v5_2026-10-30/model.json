@@ -1,0 +1,7 @@
+{
+  "id": "GLU-A_cgm-watch-food-PLANNED6H_v5_2026-10-30",
+  "name": "CGM v5 (Libre trend, 6 h)",
+  "glucose_input": "Libre history + scans (needs the last hour of readings for the trend)",
+  "horizons_min": [60, 120, 180, 240, 300, 360],
+  "planned_window_min": 360
+}

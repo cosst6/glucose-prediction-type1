@@ -1,0 +1,89 @@
+{
+ "model_id": "GLU-B_glucometer-watch15-steps-cal-PLANNED2H-FOODFAMILY_v14_2026-11-21",
+ "trained": "2026-11-21",
+ "base": "GLU-B v10",
+ "cgm_rows": 1890,
+ "fingerstick_pairs": 146,
+ "fingerstick_weight": 5,
+ "horizons_min": [
+  60,
+  120
+ ],
+ "planned_meal_window_min": 120,
+ "families": {
+  "fast": [
+   "apple",
+   "banana",
+   "guava",
+   "pomegranate",
+   "grape",
+   "melody",
+   "explicit_carbs",
+   "biscuit_hideseek",
+   "biscuit_goodday",
+   "chocolate",
+   "sugar"
+  ],
+  "milk": [
+   "milk",
+   "milk_buffalo",
+   "milk_toned",
+   "milk_cow",
+   "curd"
+  ],
+  "starch": [
+   "rice",
+   "roti",
+   "puri",
+   "poha",
+   "idli",
+   "pumpkin",
+   "potato"
+  ],
+  "legume": [
+   "moong",
+   "dal",
+   "chickpea",
+   "rajma",
+   "peas",
+   "besan",
+   "soy",
+   "bhujiya"
+  ]
+ },
+ "family_shapes_min_peakfrac": {
+  "fast": [
+   90,
+   0.3333333333333333
+  ],
+  "milk": [
+   120,
+   0.3333333333333333
+  ],
+  "starch": [
+   180,
+   0.3333333333333333
+  ],
+  "legume": [
+   300,
+   0.5
+  ],
+  "veg": [
+   240,
+   0.4
+  ]
+ },
+ "body_model_params": {
+  "mgdl_per_unit_insulin(-)": -22.722,
+  "mgdl_per_g_fast_carb": 1.743,
+  "mgdl_per_g_milk_carb": 2.306,
+  "mgdl_per_g_starch_carb": 1.359,
+  "mgdl_per_g_legume_carb": 1.915,
+  "mgdl_per_g_veg_carb": 0.0,
+  "mgdl_per_FPU": 15.456,
+  "drift_per_h": 0.18,
+  "drift_tod_s": -3.022,
+  "drift_tod_c": 2.063,
+  "pull_to_110_per_h": -14.174
+ }
+}

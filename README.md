@@ -1,5 +1,8 @@
 # GluPred — Long-Horizon Blood Glucose Prediction for Type 1 Diabetes
 
+> **New (Nov 2026): [Personal Glucose Forecasting](personal-glucose-forecasting/)**: an end-to-end system forecasting my own glucose 1-2 h ahead (live model RMSE 20.5 / 28.3 mg/dL), with 15+ fairly tested model versions, a digital twin, low/spike alarms, and two Android apps. See its [README](personal-glucose-forecasting/README.md).
+
+
 A deep learning project for predicting blood glucose levels up to **2–6 hours ahead** (72 steps at 5-minute intervals) in Type 1 Diabetes patients, using a Masked Reactor GRU architecture trained on multi-source CGM data.
 
 ---

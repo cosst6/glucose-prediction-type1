@@ -1,0 +1,61 @@
+{
+ "model_id": "GLU-G_GRU-blood-libre2blood-filled-watch15-steps-cal-PLANNED2H_v1_2026-11-22",
+ "trained": "2026-11-22",
+ "type": "GRU(48) + MLP head, 3-seed ensemble",
+ "history_min": 360,
+ "planned_window_min": 120,
+ "horizons_min": [
+  60,
+  120
+ ],
+ "target": "blood glucose (glucometer)",
+ "libre_to_blood": {
+  "a": 1.0269249162304996,
+  "b": 29.01814132966101,
+  "pairs": 56
+ },
+ "glucose_gap_fill": "exponential (log-linear) interpolation between past points, forward-fill to now, back-fill window start",
+ "training_samples": 3919,
+ "real_stick_pairs": 146,
+ "stick_weight": 5,
+ "event_channels": [
+  "ins_imp",
+  "lan_imp",
+  "ins_act",
+  "ins_ob",
+  "lan_h",
+  "c_fast_imp",
+  "c_fast_act",
+  "c_milk_imp",
+  "c_milk_act",
+  "c_starch_imp",
+  "c_starch_act",
+  "c_legume_imp",
+  "c_legume_act",
+  "c_veg_imp",
+  "c_veg_act",
+  "fpu_imp",
+  "fpu_act",
+  "fib_imp"
+ ],
+ "event_scale": [
+  2.0,
+  10.0,
+  0.05,
+  3.0,
+  12.0,
+  20.0,
+  0.3,
+  20.0,
+  0.3,
+  20.0,
+  0.3,
+  20.0,
+  0.3,
+  20.0,
+  0.3,
+  1.0,
+  0.02,
+  5.0
+ ]
+}

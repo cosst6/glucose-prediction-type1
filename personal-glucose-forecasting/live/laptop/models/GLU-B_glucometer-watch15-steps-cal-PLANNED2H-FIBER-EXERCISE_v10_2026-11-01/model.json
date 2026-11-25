@@ -1,0 +1,9 @@
+{
+  "id": "GLU-B_glucometer-watch15-steps-cal-PLANNED2H-FIBER-EXERCISE_v10_2026-11-01",
+  "name": "Glucometer v10 (fiber + walking, 2 h)",
+  "glucose_input": "your newest single reading: a fingerstick (reader strip or typed in the app); a Libre value is used if it is newer",
+  "horizons_min": [60, 120],
+  "planned_window_min": 120,
+  "max_reading_age_min": 120,
+  "env": {"WSET": "new", "FIB": "split", "EXF": "1"}
+}

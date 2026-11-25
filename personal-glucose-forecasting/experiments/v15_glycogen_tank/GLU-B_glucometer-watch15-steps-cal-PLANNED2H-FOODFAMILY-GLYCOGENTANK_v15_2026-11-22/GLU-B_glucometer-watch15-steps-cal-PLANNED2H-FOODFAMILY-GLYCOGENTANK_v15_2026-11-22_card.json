@@ -1,0 +1,47 @@
+{
+ "model_id": "GLU-B_glucometer-watch15-steps-cal-PLANNED2H-FOODFAMILY-GLYCOGENTANK_v15_2026-11-22",
+ "trained": "2026-11-22",
+ "base": "GLU-B v14 food-family",
+ "cgm_rows": 1890,
+ "fingerstick_pairs": 146,
+ "fingerstick_weight": 5,
+ "horizons_min": [
+  60,
+  120
+ ],
+ "planned_meal_window_min": 120,
+ "tank_features": [
+  "liv_g",
+  "mus_g",
+  "liv_frac",
+  "mus_frac",
+  "liv_drain6h",
+  "mus_drain6h",
+  "fast_h"
+ ],
+ "tank_params": {
+  "liver_cap": 100.0,
+  "muscle_cap": 400.0,
+  "liver_start": 60.0,
+  "muscle_start": 250.0,
+  "liver_share": 0.4,
+  "muscle_share": 0.3,
+  "gng_per_g_protein": 0.5,
+  "fast_drain_gph": 4.5,
+  "fed_drain_gph": 1.0,
+  "walk_carb_frac": 0.15
+ },
+ "body_model_params": {
+  "mgdl_per_unit_insulin(-)": -22.722,
+  "mgdl_per_g_fast_carb": 1.743,
+  "mgdl_per_g_milk_carb": 2.306,
+  "mgdl_per_g_starch_carb": 1.359,
+  "mgdl_per_g_legume_carb": 1.915,
+  "mgdl_per_g_veg_carb": 0.0,
+  "mgdl_per_FPU": 15.456,
+  "drift_per_h": 0.18,
+  "drift_tod_s": -3.022,
+  "drift_tod_c": 2.063,
+  "pull_to_110_per_h": -14.174
+ }
+}

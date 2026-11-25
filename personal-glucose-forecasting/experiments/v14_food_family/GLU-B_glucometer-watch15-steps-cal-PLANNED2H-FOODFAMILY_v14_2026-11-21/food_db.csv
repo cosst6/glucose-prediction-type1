@@ -1,0 +1,37 @@
+key,pattern,unit,default_qty,grams_per_unit,carbs,protein,fat,fiber,source_note,sugar,gi,gi_source
+paneer_from_milk,paneer from,ml_milk,750,0.2,3.0,18.0,22.0,0.0,paneer yield ~20% of full-fat milk,2.0,30,"approx: fresh cheese, low lactose"
+milk_buffalo,buffalo,ml,250,1.0,5.0,3.8,6.5,0.0,per 1 ml x100: buffalo milk,5.0,39,full-fat milk 39
+milk_toned,taza|toned,ml,250,1.0,4.7,3.1,3.0,0.0,Amul Taza toned,4.7,32,low-fat milk 32
+milk_cow,cow milk|cow,ml,250,1.0,4.8,3.2,3.5,0.0,cow milk,4.8,39,full-fat milk 39
+milk,milk|shakti|gold,ml,250,1.0,4.7,3.2,6.0,0.0,Amul Gold (user's default milk),4.7,39,full-fat milk 39
+paneer,paneer,g,100,1.0,3.6,18.0,20.0,0.0,per 100 g,2.6,30,approx: fresh cheese
+egg,\beggs?\b|omelette|omlete,piece,1,50.0,1.1,12.6,10.0,0.0,per 100 g; 1 egg = 50 g,1.1,0,no carbs to test
+soy,soy,piece,10,2.0,33.0,52.0,0.5,13.0,dry soy chunk ~2 g each; per 100 g dry,7.0,18,soybeans 16-18
+rice,rice,cup,1,160.0,28.0,2.7,0.3,0.4,cooked white rice per 100 g,0.1,73,white rice boiled 73
+roti,roti|chapati,piece,1,40.0,46.0,9.0,8.0,6.0,wheat roti per 100 g,2.0,62,wheat chapati ~62 (range 45-66)
+moong,moong,cup,1,200.0,19.0,7.0,2.5,7.0,cooked moong dal incl. tadka per 100 g,2.0,31,mung bean boiled 31
+dal,dal,cup,1,200.0,15.0,6.0,2.5,4.0,cooked dal per 100 g,1.8,32,lentils 32
+chickpea,chickpea|chole|chana,cup,1,170.0,27.0,8.9,5.5,7.6,cooked black/white chickpeas incl. tadka per 100 g (added Nov 21),4.8,28,chickpeas boiled 28
+rajma,rajma|kidney,cup,1,180.0,22.8,8.7,3.5,6.4,cooked rajma incl. tadka per 100 g (added Nov 21),0.3,24,kidney beans 24-29
+puri,puri|poori,piece,1,25.0,45.0,7.0,22.0,3.0,fried wheat puri per 100 g; 1 puri ~25 g (added Nov 21),1.5,70,approx: fried wheat bread
+biscuit_hideseek,hide and seek|hide & seek,piece,1,8.3,66.0,6.0,23.0,2.0,Parle Hide & Seek per 100 g; ~8.3 g each (added Nov 21),32.0,60,approx: sweet biscuit 55-70
+biscuit_goodday,good day|biscuit,piece,1,8.0,65.0,7.0,24.0,1.5,Britannia Good Day per 100 g; ~8 g each (added Nov 21),25.0,60,approx: sweet biscuit 55-70
+bhujiya,bhujiya|sev|namkeen,cup,1,60.0,40.0,15.0,38.0,6.0,Haldiram bhujiya sev per 100 g; 1 cup ~60 g (added Nov 21),2.0,45,approx: fried besan snack
+chocolate,chocolate|dairy milk,g,20,1.0,57.0,7.5,30.0,1.0,Cadbury Dairy Milk per 100 g (added Nov 21),56.0,40,milk chocolate 40-45
+walnut,walnut,g,20,1.0,14.0,15.0,65.0,7.0,per 100 g (added Nov 21),2.6,15,nuts ~0-15
+peas,peas,cup,1,160.0,15.0,5.5,3.0,5.5,cooked peas per 100 g,5.7,51,green peas 51
+pumpkin,pumpkin,cup,1,200.0,7.0,1.0,2.5,1.0,cooked pumpkin with oil per 100 g,2.8,64,pumpkin boiled 64
+besan,besan,tbsp,1,10.0,58.0,22.0,7.0,11.0,gram flour per 100 g,10.8,35,approx: chickpea flour foods 35-44
+sauce,tomato onion sauce|sauce,tbsp,1,15.0,8.0,1.5,6.0,1.5,onion-tomato masala per 100 g,5.0,40,approx: tomato/onion
+curd,curd|dahi,g,80,1.0,4.7,3.5,4.0,0.0,per 100 g; 1 cup=240 g; 1 tbsp=15 g,4.7,35,plain yogurt 35
+almond,almond,piece,10,1.2,22.0,21.0,50.0,12.0,per 100 g,4.4,10,nuts ~0-15
+apple,apple,g,180,1.0,13.8,0.3,0.2,2.4,per 100 g; '1.2 cup' ~150 g,10.4,36,apple 36
+banana,banana,g,90,1.0,23.0,1.1,0.3,2.6,per 100 g,12.2,51,banana ripe 51 (over-ripe 62)
+guava,guava,g,200,1.0,14.0,2.6,1.0,5.4,per 100 g,8.9,30,approx: guava
+pomegranate,pomegranate,cup,1,174.0,19.0,1.7,1.2,4.0,per 100 g,13.7,35,approx: pomegranate
+grape,grape,piece,1,8.0,18.0,0.7,0.2,0.9,per 100 g,15.5,56,grapes 53-59
+cucumber,cucumber,g,150,1.0,3.6,0.7,0.1,0.5,per 100 g,1.7,15,low
+melody,melody,piece,1,1.0,375.0,0.0,0.0,0.0,stated 3.75 g net carb each,260.0,70,approx: toffee/hard candy ~70
+fish_oil,fish oil,piece,1,1.0,0.0,0.0,100.0,0.0,1 g capsule,0.0,0,no carbs
+raw_veg,raw veg,cup,1,100.0,5.0,1.5,0.2,2.0,raw salad veg per 100 g,2.5,15,non-starchy veg
+veg,veg|subji|bottlegourd|bottlegoired|parval|okra|bhindi|cabbage|carrot|bean|bittergourd|spinach|gourd|valor|boro|kundru|kandori|tindora|ladyfinger|lady finger,cup,1,180.0,5.0,1.5,4.0,2.5,non-starchy veg cooked Indian style (with oil) per 100 g,2.5,30,approx: cooked non-starchy veg

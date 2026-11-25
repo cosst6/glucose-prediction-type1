@@ -1,0 +1,29 @@
+{
+ "model_id": "LOW-1_glucometer-optional-watch15-steps-cal-food-insulin-PLANNED_v1_2026-11-14",
+ "trained": "2026-11-14",
+ "rows": 589,
+ "lows": 10,
+ "standardized_coefficients": {
+  "no_glucose": {
+   "ins0": 0.614,
+   "carb0": 1.153,
+   "fpu0": -2.077,
+   "iob0": -0.266,
+   "L": 0.19,
+   "n_hr_15": 0.607,
+   "n_steps_60": -0.168,
+   "n_cal_60": -0.159
+  },
+  "one_stick": {
+   "o_g0": -0.66,
+   "ins": 0.556,
+   "carb": 0.971,
+   "fpu": -1.873,
+   "H": 0.724,
+   "o_age": -0.392,
+   "n_hr_15": 0.295,
+   "n_steps_60": -0.045,
+   "n_cal_60": -0.042
+  }
+ }
+}

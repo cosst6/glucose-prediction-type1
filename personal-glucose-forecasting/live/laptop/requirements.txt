@@ -1,0 +1,15 @@
+# model (same versions the model was trained with, so it loads exactly)
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+scikit-learn==1.9.1
+joblib==1.6.0
+# cloud + time zone
+requests>=2.31
+tzdata
+# FreeStyle Libre reader over USB
+hidapi
+freestyle-hid>=1.0.2
+attrs
+construct
+glucometerutils @ https://github.com/glucometers-tech/glucometerutils/archive/refs/heads/main.zip

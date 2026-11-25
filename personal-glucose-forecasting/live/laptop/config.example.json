@@ -1,0 +1,9 @@
+{
+  "firebase_web_api_key": "PASTE-WEB-API-KEY",
+  "firebase_project_id": "PASTE-PROJECT-ID",
+  "email": "your-login-email@example.com",
+  "timezone": "Asia/Kolkata",
+  "active_model": "GLU-B_glucometer-watch15-steps-cal-PLANNED2H-FIBER-EXERCISE_v10_2026-11-01",
+  "models": [],
+  "_help": "active_model = shown first on the phone. models = list of ids to run ([] = every folder in models/). See: python forecaster.py list"
+}

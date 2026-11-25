@@ -1,0 +1,16 @@
+model,set,unit,TP,FN,FP,TN,n,accuracy,recall,precision,specificity,false_alarm_rate
+"LOW-1 v1 (low<70, 2h ahead, no stick)",set 2,readings,8,2,16,47,73,75,80,33,75,25
+LOW-1 v1,set 3,readings,4,4,26,13,47,36,50,13,33,67
+LOW-1 v2,set 3,readings,3,5,27,12,47,32,38,10,31,69
+NIGHTLOW-1 v1 (night low<70),set 2+3,nights,2,0,3,2,7,57,100,40,40,60
+NIGHTLOW-1 v2,set 2+3,nights,2,0,2,3,7,71,100,50,60,40
+Your low-risk model (Libre<80 in 2h),set 1 Libre,15-min rows,98,20,31,86,235,78,83,76,74,26
+"SPIKE-1 v1 (rise>=30, pre-meal stick)",set 2,meals,8,4,4,12,28,71,67,67,75,25
+SPIKE-1 v1,set 3,meals,6,3,3,1,13,54,67,67,25,75
+SPIKE-1 v2,set 3,meals,8,1,3,1,13,69,89,73,25,75
+"SPIKE-2 (rise>=30, no stick)",set 2,meals,10,2,8,8,28,64,83,56,50,50
+"RISE40 v1 (rise>=40, pre reading)",set 2,meals,5,6,4,13,28,64,45,56,76,24
+RISE40 v1,set 3,meals,4,3,4,2,13,46,57,50,33,67
+RISE40 v2,set 3,meals,5,2,4,2,13,54,71,56,33,67
+Your rule <1u per 8g (rise>=30),set 2,meals,8,4,7,9,28,61,67,53,56,44
+Your rule <1u per 8g,set 3,meals,9,0,1,3,13,92,100,90,75,25
